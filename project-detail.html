@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Details | Brian Mahove</title>
+
+    <meta name="description" content="Detailed view of Brian Mahove's development projects.">
+    <meta name="robots" content="noindex, nofollow"> <link rel="icon" href="assets/img/favicon.png" type="image/png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="theme-toggle-container">
+        <label class="switch" for="theme-toggle-checkbox">
+            <input type="checkbox" id="theme-toggle-checkbox" title="Toggle dark/light theme">
+            <span class="slider round"><i class="fa-solid fa-moon"></i><i class="fa-solid fa-sun"></i></span>
+        </label>
+    </div>
+
+    <header class="header sticky">
+        <nav class="navbar container">
+            <a href="index.html" class="logo">Brian M.</a>
+            <ul class="nav-menu">
+                <li><a href="index.html#about" class="nav-link">About</a></li>
+                <li><a href="index.html#skills" class="nav-link">Skills</a></li>
+                <li><a href="index.html#projects" class="nav-link">Projects</a></li>
+                <li><a href="index.html#contact" class="nav-link">Contact</a></li>
+            </ul>
+             <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="project-detail section">
+            <div class="container" id="project-content">
+                <div class="loading-state">
+                    <h2>Loading Project...</h2>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Brian Mahove. Crafted with ❤️ and code in Harare.</p>
+        </div>
+    </footer>
+
+    <script src="project-data.js"></script> <script src="project-detail.js"></script> </body>
+</html>

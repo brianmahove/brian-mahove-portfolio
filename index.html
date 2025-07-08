@@ -32,8 +32,8 @@
     <div class="cursor-outline"></div>
 
     <div class="theme-toggle-container">
-        <label class="switch">
-            <input type="checkbox" id="theme-toggle-checkbox">
+        <label class="switch" for="theme-toggle-checkbox">
+            <input type="checkbox" id="theme-toggle-checkbox" title="Toggle dark/light theme">
             <span class="slider round"><i class="fa-solid fa-moon"></i><i class="fa-solid fa-sun"></i></span>
         </label>
     </div>
@@ -136,35 +136,37 @@
             <div class="container" data-aos="fade-up">
                 <h2 class="section-title">Featured Projects</h2>
                 <div class="projects-grid">
-                    <div class="project-card" data-aos="fade-up" data-aos-delay="200">
-                        <img src="assets/img/project-agrixpert.png" alt="AgriXpert Project">
-                        <div class="project-info">
-                            <h3>AgriXpert</h3>
-                            <p>An ML-powered mobile app providing farmers with crop disease diagnosis. The integrated TensorFlow model achieved <strong>95% accuracy</strong>, and the Flutter app supported over <strong>500+ beta users</strong>.</p>
-                            <div class="tech-stack">
-                                <span>Flutter</span><span>TensorFlow</span><span>Firebase</span>
-                            </div>
-                            <div class="project-links">
-                                <a href="#" class="link-icon"><i class="fas fa-external-link-alt"></i> Live Demo</a>
-                                <a href="#" class="link-icon"><i class="fab fa-github"></i> Source Code</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="project-card" data-aos="fade-up" data-aos-delay="400">
-                        <img src="assets/img/project-ai-recruiter.png" alt="AI Recruiting Platform">
-                        <div class="project-info">
-                            <h3>AI Recruiting Platform</h3>
-                            <p>A web platform using NLP to screen resumes and match candidates to jobs, successfully <strong>reducing manual screening time by 75%</strong> in its proof-of-concept phase.</p>
-                            <div class="tech-stack">
-                                <span>Python</span><span>Flask</span><span>PostgreSQL</span>
-                            </div>
-                             <div class="project-links">
-                                <a href="#" class="link-icon"><i class="fas fa-external-link-alt"></i> Live Demo</a>
-                                <a href="#" class="link-icon"><i class="fab fa-github"></i> Source Code</a>
-                            </div>
-                        </div>
-                    </div>
+    <a href="project-detail.html?project=agriXpert" class="project-card-link" data-aos="fade-up" data-aos-delay="200">
+        <div class="project-card">
+            <img src="assets/img/project-agrixpert.png" alt="AgriXpert Project">
+            <div class="project-info">
+                <h3>AgriXpert</h3>
+                <p>An ML-powered mobile app for crop disease diagnosis. Achieved <strong>95% accuracy</strong> and supported over <strong>500+ beta users</strong>.</p>
+                <div class="tech-stack">
+                    <span>Flutter</span><span>TensorFlow</span><span>Firebase</span>
                 </div>
+                <div class="project-links">
+                    <span class="link-icon"><i class="fas fa-info-circle"></i> View Details</span>
+                </div>
+            </div>
+        </div>
+    </a>
+    <a href="project-detail.html?project=aiRecruiter" class="project-card-link" data-aos="fade-up" data-aos-delay="400">
+        <div class="project-card">
+            <img src="assets/img/project-ai-recruiter.png" alt="AI Recruiting Platform">
+            <div class="project-info">
+                <h3>AI Recruiting Platform</h3>
+                <p>A web platform using NLP to screen resumes, successfully <strong>reducing manual screening time by 75%</strong>.</p>
+                <div class="tech-stack">
+                    <span>Python</span><span>Flask</span><span>PostgreSQL</span>
+                </div>
+                <div class="project-links">
+                    <span class="link-icon"><i class="fas fa-info-circle"></i> View Details</span>
+                </div>
+            </div>
+        </div>
+    </a>
+</div>
             </div>
         </section>
         
