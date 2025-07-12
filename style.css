@@ -175,12 +175,28 @@ input:checked + .slider .fa-sun { display: block; }
     align-items: center;
     height: 4.5rem;
 }
-.logo {
+ .logo {
     font-size: 1.8rem;
     font-weight: 800;
     text-decoration: none;
     color: var(--primary-color);
+    
+    display: flex;
+  align-items: center; 
+
 }
+
+
+
+
+.logo img {
+  /* Remove or adjust max-width: 5%; */
+  height: 2rem; /* Example: Adjust this value to match your desired height */
+  width: auto; /* Maintain aspect ratio */
+  margin-right: 5px;
+  /* vertical-align: middle; -- Often not strictly needed with flexbox on parent */
+}
+
 .nav-menu {
     display: flex;
     list-style: none;

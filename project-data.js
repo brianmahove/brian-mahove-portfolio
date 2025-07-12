@@ -79,7 +79,11 @@ const projectsData = {
         ],
         techStack: ["Flutter", "Dart", "SQFlite", "REST API"],
         gallery: [
-            "assets/img/project-notes.png"
+            "assets/img/project-notes-1.png",
+            "assets/img/project-notes-2.png",
+            "assets/img/project-notes-3.png",
+            "assets/img/project-notes-4.png",
+            "assets/img/project-notes-5.png",
         ],
         liveLink: "https://youtu.be/1Q4l48konDw?si=wJ01WNuv4AC05z0T",
         githubLink: "https://github.com/brianmahove/flutter-notes-app"
@@ -96,7 +100,13 @@ const projectsData = {
         ],
         techStack: ["React", "Node.js", "MongoDB"],
         gallery: [
-            "assets/img/project-todo.png"
+            "assets/img/project-todo-1.png",
+            "assets/img/project-todo-2.png",
+            "assets/img/project-todo-3.png",        
+            "assets/img/project-todo-4.png",
+            "assets/img/project-todo-5.png",
+            "assets/img/project-todo-6.png",
+            "assets/img/project-todo-7.png",
         ],
         liveLink: "https://youtu.be/Vi7F1D1sBsE?si=pVkCY4NWIne-BAHa",
         githubLink: "https://github.com/brianmahove/flutter-todo-app"
@@ -113,7 +123,10 @@ const projectsData = {
         ],
         techStack: ["Python", "OpenCV", "Pygame"],
         gallery: [
-            "assets/img/project-snake.png"
+            "assets/img/project-snake-1.jpg",
+            "assets/img/project-snake-2.jpg",
+            "assets/img/project-snake-3.jpg",
+            "assets/img/project-snake-4.jpg",
         ],
         liveLink: "https://www.youtube.com/@techondemand_/featured",
         githubLink: "#"
@@ -147,7 +160,13 @@ const projectsData = {
         ],
         techStack: ["React Native", "Firebase", "Socket.io"],
         gallery: [
-            "assets/img/project-whatsapp.png"
+            "assets/img/project-whatsapp-1.png",
+            "assets/img/project-whatsapp-2.png",
+            "assets/img/project-whatsapp-3.png",
+            "assets/img/project-whatsapp-4.png",     
+            "assets/img/project-whatsapp-5.png",
+            "assets/img/project-whatsapp-6.png",
+            "assets/img/project-whatsapp-7.png",  
         ],
         liveLink: "https://www.youtube.com/@techondemand_/featured",
         githubLink: "https://github.com/brianmahove/whatsapp-clone-flutter-app"
@@ -164,7 +183,10 @@ const projectsData = {
         ],
         techStack: ["React Native", "Firebase", "Google Maps API"],
         gallery: [
-            "assets/img/project-seniorcare.png"
+            "assets/img/project-seniorcare-1.jpg",
+            "assets/img/project-seniorcare-2.jpg",
+            "assets/img/project-seniorcare-3.jpg",
+            "assets/img/project-seniorcare-4.jpg",
         ],
         liveLink: "https://youtube.com/shorts/B-f2Np5V5mU?si=BWIsXboGTeSEFoq-",
         githubLink: "#"
@@ -224,7 +246,7 @@ const projectsData = {
     aiRecruiter: {
         title: "AI Recruiting Platform",
         tagline: "Streamlining the hiring process with intelligent automation.",
-        heroImage: "assets/img/project-ai-recruiter.png",
+        heroImage: "assets/img/project-ai-recruiter.jpeg",
         description: "The AI Recruiting Platform is a web-based solution designed to help HR departments and recruiters manage high volumes of job applications. It uses Natural Language Processing (NLP) to parse resumes, extract key information, and score candidates based on their relevance to a job description. This automation significantly reduces bias and the time required for manual screening.",
         keyFeatures: [
             "Automated resume parsing and data extraction.",
@@ -234,9 +256,13 @@ const projectsData = {
         ],
         techStack: ["Python", "Flask", "PostgreSQL", "JavaScript", "HTML/CSS", "NLP (spaCy)"],
         gallery: [
-            "assets/img/project-ai-recruiter.png",
-            "assets/img/project-ai-recruiter-2.png",
-            "assets/img/project-ai-recruiter-3.png"
+            "assets/img/project-ai-recruiter.jpeg",
+             
+            "assets/img/project-ai-recruiter-1.jpeg",
+            "assets/img/project-ai-recruiter-2.jpeg",
+            "assets/img/project-ai-recruiter-3.jpeg",
+            "assets/img/project-ai-recruiter-4.jpeg",
+            "assets/img/project-ai-recruiter-5.jpeg",
         ],
         liveLink: "https://www.youtube.com/@techondemand_/featured",
         githubLink: "https://github.com/brianmahove/recruiting-ai"
