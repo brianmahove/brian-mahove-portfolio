@@ -156,3 +156,5 @@ document.addEventListener('DOMContentLoaded', () => {
         contactForm.reset();
     });
 });
+
+console.warn("Developed by Brian Mahove. Unauthorized use is prohibited.");

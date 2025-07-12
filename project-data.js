@@ -12,12 +12,33 @@ const projectsData = {
         ],
         techStack: ["Flutter", "Dart", "TensorFlow Lite", "Firebase", "Python"],
         gallery: [
-            "assets/img/project-agrixpert.png",
-            "assets/img/project-agrixpert-2.png",
-            //"assets/img/project-agrixpert-3.jpg" 
+            "assets/img/project-agrixpert-1.jpg",
+            "assets/img/project-agrixpert-2.jpg",
+            "assets/img/project-agrixpert-3.jpg",
+            "assets/img/project-agrixpert-4.jpg",
+            "assets/img/project-agrixpert-5.jpg",
+            "assets/img/project-agrixpert-6.jpg",
+            "assets/img/project-agrixpert-7.jpg",
+            "assets/img/project-agrixpert-8.jpg",
+            "assets/img/project-agrixpert-9.jpg",
+            "assets/img/project-agrixpert-10.jpg",
+            "assets/img/project-agrixpert-11.jpg",
+            "assets/img/project-agrixpert-12.jpg",
+            "assets/img/project-agrixpert-13.jpg",
+            "assets/img/project-agrixpert-14.jpg",
+            "assets/img/project-agrixpert-15.jpg",
+            "assets/img/project-agrixpert-16.jpg",
+            "assets/img/project-agrixpert-17.jpg",
+            "assets/img/project-agrixpert-18.jpg",
+            "assets/img/project-agrixpert-19.jpg",
+            "assets/img/project-agrixpert-20.jpg",
+            "assets/img/project-agrixpert-21.jpg",
+            "assets/img/project-agrixpert-22.jpg", 
+            "assets/img/project-agrixpert-23.jpg",
+            "assets/img/project-agrixpert-24.jpg"
         ],
-        liveLink: "#",
-        githubLink: "#"
+        liveLink: "https://youtu.be/qHkTNgT9UC8?si=ltwn7ZgvmStM2Ty9",
+        githubLink: "https://github.com/brianmahove"
     },
     guesthouseApp: {
         title: "Guest House App",
@@ -32,10 +53,19 @@ const projectsData = {
         ],
         techStack: ["Flutter", "Firebase", "REST API"],
         gallery: [
-            "assets/img/project-guesthouse.png"
+            "assets/img/project-guesthouse-1.jpg",
+            "assets/img/project-guesthouse-2.jpg",
+            "assets/img/project-guesthouse-3.jpg",
+            "assets/img/project-guesthouse-4.jpg",
+            "assets/img/project-guesthouse-5.jpg",
+            "assets/img/project-guesthouse-6.jpg",
+            "assets/img/project-guesthouse-7.jpg",
+            "assets/img/project-guesthouse-8.jpg",
+            "assets/img/project-guesthouse-9.jpg",
+            "assets/img/project-guesthouse-10.jpg",
         ],
-        liveLink: "#",
-        githubLink: "#"
+        liveLink: "https://youtu.be/-EoM0JkiK5Q?si=SNiPNAZpfofj9U2D",
+        githubLink: "https://github.com/brianmahove"
     },
     notesApp: {
         title: "Notes App",
@@ -51,8 +81,8 @@ const projectsData = {
         gallery: [
             "assets/img/project-notes.png"
         ],
-        liveLink: "#",
-        githubLink: "#"
+        liveLink: "https://youtu.be/1Q4l48konDw?si=wJ01WNuv4AC05z0T",
+        githubLink: "https://github.com/brianmahove/flutter-notes-app"
     },
     todoApp: {
         title: "Todo App",
@@ -68,8 +98,8 @@ const projectsData = {
         gallery: [
             "assets/img/project-todo.png"
         ],
-        liveLink: "#",
-        githubLink: "#"
+        liveLink: "https://youtu.be/Vi7F1D1sBsE?si=pVkCY4NWIne-BAHa",
+        githubLink: "https://github.com/brianmahove/flutter-todo-app"
     },
     snakeGame: {
         title: "Classic Snake Game (Gesture Controlled)",
@@ -85,7 +115,7 @@ const projectsData = {
         gallery: [
             "assets/img/project-snake.png"
         ],
-        liveLink: "#",
+        liveLink: "https://www.youtube.com/@techondemand_/featured",
         githubLink: "#"
     },
     eduConnect: {
@@ -102,8 +132,8 @@ const projectsData = {
         gallery: [
             "assets/img/project-educonnect.png"
         ],
-        liveLink: "#",
-        githubLink: "#"
+        liveLink: "https://youtu.be/QjFmgaT_fCE?si=WDSHagVGx5RPW95c",
+        githubLink: "https://github.com/brianmahove/educonnect-frontend-flutter"
     },
     whatsappClone: {
         title: "WhatsApp Clone",
@@ -119,8 +149,8 @@ const projectsData = {
         gallery: [
             "assets/img/project-whatsapp.png"
         ],
-        liveLink: "#",
-        githubLink: "#"
+        liveLink: "https://www.youtube.com/@techondemand_/featured",
+        githubLink: "https://github.com/brianmahove/whatsapp-clone-flutter-app"
     },
     seniorCare: {
         title: "Senior Care Assistant",
@@ -136,7 +166,7 @@ const projectsData = {
         gallery: [
             "assets/img/project-seniorcare.png"
         ],
-        liveLink: "#",
+        liveLink: "https://youtube.com/shorts/B-f2Np5V5mU?si=BWIsXboGTeSEFoq-",
         githubLink: "#"
     },
     smolVLM: {
@@ -151,10 +181,11 @@ const projectsData = {
         ],
         techStack: ["Flutter", "SmolVLM-500M", "llama.cpp", "WebSocket"],
         gallery: [
-            "assets/img/project-smolvlm.png"
+            "assets/img/project-smolvlm-1.jpg",
+            "assets/img/project-smolvlm-2.jpg"
         ],
-        liveLink: "#",
-        githubLink: "#"
+        liveLink: "https://www.youtube.com/@techondemand_/featured",
+        githubLink: "https://github.com/brianmahove/SmolVLM-Flutter-App"
     },
     handGestureSnake: {
         title: "Hand-Gesture Controlled Snake Game",
@@ -170,7 +201,7 @@ const projectsData = {
         gallery: [
             "assets/img/project-gesture-snake.png"
         ],
-        liveLink: "#",
+        liveLink: "https://www.youtube.com/@techondemand_/featured",
         githubLink: "#"
     },
     oneLineDraw: {
@@ -187,7 +218,7 @@ const projectsData = {
         gallery: [
             "assets/img/project-oneline.png"
         ],
-        liveLink: "#",
+        liveLink: "https://www.youtube.com/@techondemand_/featured",
         githubLink: "#"
     },
     aiRecruiter: {
@@ -207,7 +238,7 @@ const projectsData = {
             "assets/img/project-ai-recruiter-2.png",
             "assets/img/project-ai-recruiter-3.png"
         ],
-        liveLink: "#",
-        githubLink: "#"
+        liveLink: "https://www.youtube.com/@techondemand_/featured",
+        githubLink: "https://github.com/brianmahove/recruiting-ai"
     }
 };
