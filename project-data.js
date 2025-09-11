@@ -266,5 +266,42 @@ const projectsData = {
         ],
         liveLink: "https://www.youtube.com/@techondemand_/featured",
         githubLink: "https://github.com/brianmahove/recruiting-ai"
-    }
+    },
+    
+cvTailorAI: {
+title: "CV Tailor AI",
+tagline: "Automated CV and cover letter tailoring for any job.",
+heroImage: "assets/img/cv-tailor-screenshot-1.png",
+description: "CV Tailor AI is a web application that automates the tedious process of tailoring a resume and cover letter for specific job postings. By leveraging NLP and a large language model, it provides a powerful solution to increase a candidate's chances of passing through an Applicant Tracking System (ATS) and securing a job interview.",
+keyFeatures: [
+"Intelligent content generation for professional summaries and skills sections.",
+"NLP-powered analysis to provide a 'Job Fit Score' and highlight missing skills.",
+"Supports flexible file handling for .docx and .pdf uploads.",
+"Generates ATS-friendly output documents.",
+"Intuitive multi-tab user interface with light/dark mode."
+],
+techStack: [
+"Python",
+"Streamlit",
+"Gemini API",
+"spaCy",
+"python-docx",
+"PyMuPDF",
+"ReportLab"
+],
+gallery: [
+"assets/img/cv-tailor-screenshot-1.png",
+"assets/img/cv-tailor-screenshot-2.png",
+"assets/img/cv-tailor-screenshot-3.png",
+"assets/img/cv-tailor-screenshot-4.png",
+"assets/img/cv-tailor-screenshot-5.png",
+"assets/img/cv-tailor-screenshot-6.png",
+"assets/img/cv-tailor-screenshot-7.png",
+"assets/img/cv-tailor-screenshot-8.png",
+"assets/img/cv-tailor-screenshot-9.png",
+],
+liveLink: "https://www.google.com/search?q=https://cv-tailor-ai-demo.streamlit.app",
+githubLink: "https://github.com/brianmahove//cv-tailor-ai"
+
+}
 };
