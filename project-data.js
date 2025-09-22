@@ -303,5 +303,29 @@ gallery: [
 liveLink: "https://www.google.com/search?q=https://cv-tailor-ai-demo.streamlit.app",
 githubLink: "https://github.com/brianmahove//cv-tailor-ai"
 
-}
+},
+todoApp: {
+    title: "Todo App",
+    tagline: "A simple and interactive task management app built with React and TypeScript.",
+    heroImage: "assets/img/todo-list.png",
+    description: "The Todo App is a frontend project built using React and TypeScript with a mock local API. It allows users to manage tasks seamlessly by adding, editing, marking as complete, and deleting todos. The app includes loading states, error handling, and a fully responsive design, making it a practical showcase of clean component design and state management.",
+    keyFeatures: [
+        "Add, edit, complete, and delete todos.",
+        "Interactive and responsive user interface.",
+        "Mock local API integration for simulating backend calls.",
+        "Loading spinner and error handling with retry option."
+    ],
+    techStack: ["React", "TypeScript", "CSS"],
+    gallery: [
+        "assets/img/add-new-todo.png",
+        "assets/img/add-todo-form-empty.png",
+        "assets/img/edit.png",
+        "assets/img/todo-list-2.png",
+        "assets/img/loading-spinner.png",
+        "assets/img/error-message.png",
+    ],
+    liveLink: "http://localhost:3000",  // replace with deployed link if you host it
+    githubLink: "https://github.com/brianmahove/todo-app-typescript"
+},
+
 };
