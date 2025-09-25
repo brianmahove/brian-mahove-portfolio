@@ -155,6 +155,8 @@ document.addEventListener('DOMContentLoaded', () => {
         alert('Thank you for your message! I will get back to you soon.');
         contactForm.reset();
     });
+
+    
 });
 
 console.warn("Developed by Brian Mahove. Unauthorized use is prohibited.");

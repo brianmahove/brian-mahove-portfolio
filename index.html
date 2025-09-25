@@ -54,13 +54,14 @@
                 <li><a href="#about" class="nav-link">About</a></li>
                 <li><a href="#skills" class="nav-link">Skills</a></li>
                 <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#github-projects" class="nav-link">Repos</a></li>
                 <li><a href="#experience" class="nav-link">Experience</a></li>
                 <li><a href="#achievements" class="nav-link">Achievements</a></li>
                 <li><a href="#contact" class="nav-link">Contact</a></li>
             </ul>
             <div class="hamburger">
                 <span class="bar"></span>
-                <span class="bar"></span>
+                <span class="bar"></span> 
                 <span class="bar"></span>
             </div>
         </nav>
@@ -392,6 +393,16 @@
     </div>
 </section>
 
+
+        <section class="github-projects section" id="github-projects">
+  <div class="container" data-aos="fade-up">
+    <h2 class="section-title">Code Repositories</h2>
+    <div id="repo-list" class="projects-grid">
+      <p class="loading-message">Loading repositories...</p>
+    </div>
+  </div>
+</section>
+
         <section class="experience section" id="experience">
             <div class="container" data-aos="fade-up">
                 <h2 class="section-title">Career Milestones</h2>
@@ -501,5 +512,51 @@
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
 
     <script src="script.js"></script>
+    <script>
+  async function loadGitHubRepos() {
+    const username = "brianmahove"; // your GitHub username
+    const repoList = document.getElementById("repo-list");
+
+    try {
+      const response = await fetch(`https://api.github.com/users/${username}/repos?sort=updated`);
+      const repos = await response.json();
+
+      repoList.innerHTML = ""; // clear loading text
+
+      repos.forEach(repo => {
+        // skip forks
+        if (repo.fork) return;
+
+        // create repo card
+        const repoCard = document.createElement("div");
+        repoCard.className = "project-card";
+        repoCard.innerHTML = `
+          <div class="project-info">
+            <h3>${repo.name}</h3>
+            <p>${repo.description || "No description provided."}</p>
+            <div class="tech-stack">
+              <span>⭐ ${repo.stargazers_count}</span>
+              <span>🍴 ${repo.forks_count}</span>
+              <span>👁 ${repo.watchers_count}</span>
+            </div>
+            <div class="project-links">
+              <a href="${repo.html_url}" target="_blank" class="link-icon">
+                <i class="fab fa-github"></i> View on GitHub
+              </a>
+            </div>
+          </div>
+        `;
+        repoList.appendChild(repoCard);
+      });
+    } catch (error) {
+      repoList.innerHTML = `<p>⚠️ Unable to load repositories right now.</p>`;
+      console.error(error);
+    }
+  }
+
+  // load on page load
+  document.addEventListener("DOMContentLoaded", loadGitHubRepos);
+</script>
+
 </body>
 </html>

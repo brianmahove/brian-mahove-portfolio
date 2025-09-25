@@ -437,7 +437,7 @@ input:checked + .slider .fa-sun { display: block; }
     background: var(--card-bg);
     border: 1px solid var(--card-border);
     -webkit-backdrop-filter: blur(10px);
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px); /* Safari 9+ and iOS Safari 9+ support */
     border-radius: 15px;
     overflow: hidden;
     box-shadow: 0 5px 20px rgba(0,0,0,0.05);
@@ -549,7 +549,7 @@ input:checked + .slider .fa-sun { display: block; }
     padding: 1rem;
     background: var(--card-bg);
     border: 1px solid var(--card-border);
-    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px); backdrop-filter: blur(5px);
     border-radius: 10px;
     box-shadow: 0 5px 15px rgba(0,0,0,0.05);
     margin-top: 0.5rem;
@@ -751,7 +751,7 @@ input:checked + .slider .fa-sun { display: block; }
     padding: 1.5rem 1rem; /* Adjusted padding */
     border-radius: 20px;
     box-shadow: var(--neumorphism-shadow);
-    border: 1px solid var(--card-border);
+    border: 1px solid var(--card-border); -webkit-backdrop-filter: blur(5px);
     backdrop-filter: blur(5px);
     transition: var(--transition-smooth);
 }
@@ -783,7 +783,7 @@ input:checked + .slider .fa-sun { display: block; }
     text-align: center;
     box-shadow: var(--neumorphism-shadow);
     border: 1px solid var(--card-border);
-    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px); backdrop-filter: blur(10px);
     transition: var(--transition-smooth);
 }
 
@@ -929,7 +929,7 @@ input:checked + .slider .fa-sun { display: block; }
     padding: 2rem;
     border-radius: 15px;
     margin-bottom: 2rem;
-    border: 1px solid var(--card-border);
+    border: 1px solid var(--card-border); -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px);
 }
 
@@ -991,6 +991,10 @@ input:checked + .slider .fa-sun { display: block; }
     font-size: 6rem;
     color: var(--primary-color);
 }
+
+
+
+
 
 /* RESPONSIVE UPDATES FOR DETAIL PAGE */
 @media (max-width: 992px) {
