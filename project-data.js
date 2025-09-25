@@ -304,6 +304,7 @@ liveLink: "https://www.google.com/search?q=https://cv-tailor-ai-demo.streamlit.a
 githubLink: "https://github.com/brianmahove//cv-tailor-ai"
 
 },
+
 todoApp: {
     title: "Todo App",
     tagline: "A simple and interactive task management app built with React and TypeScript.",
@@ -326,6 +327,32 @@ todoApp: {
     ],
     liveLink: "http://localhost:3000",  // replace with deployed link if you host it
     githubLink: "https://github.com/brianmahove/todo-app-typescript"
+},
+hovixy: {
+    title: "Hovixy eCommerce Platform",
+    tagline: "A futuristic, modern eCommerce platform built with cutting-edge React technologies and stunning UI/UX design.",
+    heroImage: "assets/img/hovixy-1.png",
+    description: "Hovixy is a next-generation eCommerce platform featuring a futuristic design with glass morphism effects, smooth animations, and a complete shopping experience. Built with React, TypeScript, and modern web technologies, it showcases advanced frontend development patterns including state management, responsive design, and accessibility best practices.",
+    keyFeatures: [
+        "Complete product catalog with futuristic hover effects and animations",
+        "Shopping cart functionality with add/remove items and quantity management",
+        "Product detail pages with comprehensive information and image galleries",
+        "Dark/light theme toggle with persistent user preferences",
+        "Responsive design optimized for desktop, tablet, and mobile devices",
+        "Glass morphism UI design with neon accents and smooth transitions",
+        "Redux state management for predictable data flow",
+        "TypeScript-first development with full type safety",
+        "Accessibility-compliant components following WCAG guidelines"
+    ],
+    techStack: ["React", "TypeScript", "Redux Toolkit", "Styled Components", "Framer Motion", "React Router", "Vite", "Lucide React"],
+    gallery: [
+        "assets/img/hovixy-0.png",
+        "assets/img/hovixy-2.png",
+        "assets/img/hovixy-3.png",
+        "assets/img/hovixy-4.png",
+    ],
+    liveLink: "http://localhost:3000",  // replace with deployed link when hosted
+    githubLink: "https://github.com/your-username/hovixy-ecommerce"
 },
 
 };
