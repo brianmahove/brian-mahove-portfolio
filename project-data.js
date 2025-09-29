@@ -354,5 +354,31 @@ hovixy: {
     liveLink: "http://localhost:3000",  // replace with deployed link when hosted
     githubLink: "https://github.com/your-username/hovixy-ecommerce"
 },
-
+socialImpactDashboard: {
+    title: "Global Impact Data Visualization Dashboard",
+    tagline: "A comprehensive data visualization platform for tracking global development indicators and humanitarian data from international organizations.",
+    heroImage: "assets/img/sid-0.jpeg",
+    description: "The Global Impact Dashboard is a full-stack web application that transforms complex development data into interactive, actionable insights. Built for humanitarian organizations and data analysts, it provides real-time visualization of poverty, gender equality, education, and health indicators across countries and regions. The platform features interactive charts, world maps, and advanced filtering capabilities to make data-driven decision making accessible to everyone.",
+    keyFeatures: [
+        "Interactive data visualizations with Recharts (line, bar, pie charts)",
+        "World map integration using Leaflet.js with country-level data markers",
+        "Real-time filtering by country, region, year, and development indicators",
+        "SQLite database with sample development data from World Bank and UN sources",
+        "RESTful API backend with Express.js and comprehensive data endpoints",
+        "Mobile-responsive design with TailwindCSS for seamless cross-device experience",
+        "Personalized dashboard with custom notes and goals tracking features",
+        "Export functionality for data analysis and reporting",
+        "Modern React architecture with Context API for state management"
+    ],
+    techStack: ["React.js", "Node.js", "Express.js", "SQLite", "Recharts", "Leaflet Maps", "TailwindCSS", "REST API", "Vite", "Lucide React"],
+    gallery: [
+        "assets/img/sid-1.png",
+        "assets/img/sid-2.png",
+        "assets/img/sid-3.png",
+        "assets/img/sid-4.png",
+    ],
+    liveLink: "http://localhost:5173",  // Frontend development server
+    backendLink: "http://localhost:3001", // Backend API server
+    githubLink: "https://github.com/your-username/social-impact-dashboard"
+},
 };
