@@ -156,6 +156,22 @@ document.addEventListener('DOMContentLoaded', () => {
         contactForm.reset();
     });
 
+    // Magnetic button effect
+document.querySelectorAll('.magnetic').forEach(button => {
+    button.addEventListener('mousemove', (e) => {
+        const rect = button.getBoundingClientRect();
+        const x = e.clientX - rect.left - rect.width / 2;
+        const y = e.clientY - rect.top - rect.height / 2;
+        
+        button.style.transform = `translate(${x * 0.1}px, ${y * 0.1}px) scale(1.05)`;
+    });
+    
+    button.addEventListener('mouseleave', () => {
+        button.style.transform = 'translate(0, 0) scale(1)';
+    });
+});
+    
+
     
 });
 

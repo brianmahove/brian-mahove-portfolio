@@ -33,7 +33,7 @@ const projectsData = {
             "assets/img/project-agrixpert-19.jpg",
             "assets/img/project-agrixpert-20.jpg",
             "assets/img/project-agrixpert-21.jpg",
-            "assets/img/project-agrixpert-22.jpg", 
+            "assets/img/project-agrixpert-22.jpg",
             "assets/img/project-agrixpert-23.jpg",
             "assets/img/project-agrixpert-24.jpg"
         ],
@@ -102,7 +102,7 @@ const projectsData = {
         gallery: [
             "assets/img/project-todo-1.png",
             "assets/img/project-todo-2.png",
-            "assets/img/project-todo-3.png",        
+            "assets/img/project-todo-3.png",
             "assets/img/project-todo-4.png",
             "assets/img/project-todo-5.png",
             "assets/img/project-todo-6.png",
@@ -163,10 +163,10 @@ const projectsData = {
             "assets/img/project-whatsapp-1.png",
             "assets/img/project-whatsapp-2.png",
             "assets/img/project-whatsapp-3.png",
-            "assets/img/project-whatsapp-4.png",     
+            "assets/img/project-whatsapp-4.png",
             "assets/img/project-whatsapp-5.png",
             "assets/img/project-whatsapp-6.png",
-            "assets/img/project-whatsapp-7.png",  
+            "assets/img/project-whatsapp-7.png",
         ],
         liveLink: "https://www.youtube.com/@techondemand_/featured",
         githubLink: "https://github.com/brianmahove/whatsapp-clone-flutter-app"
@@ -257,7 +257,7 @@ const projectsData = {
         techStack: ["Python", "Flask", "PostgreSQL", "JavaScript", "HTML/CSS", "NLP (spaCy)"],
         gallery: [
             "assets/img/project-ai-recruiter.jpeg",
-             
+
             "assets/img/project-ai-recruiter-1.jpeg",
             "assets/img/project-ai-recruiter-2.jpeg",
             "assets/img/project-ai-recruiter-3.jpeg",
@@ -267,118 +267,118 @@ const projectsData = {
         liveLink: "https://www.youtube.com/@techondemand_/featured",
         githubLink: "https://github.com/brianmahove/recruiting-ai"
     },
-    
-cvTailorAI: {
-title: "CV Tailor AI",
-tagline: "Automated CV and cover letter tailoring for any job.",
-heroImage: "assets/img/cv-tailor-screenshot-1.png",
-description: "CV Tailor AI is a web application that automates the tedious process of tailoring a resume and cover letter for specific job postings. By leveraging NLP and a large language model, it provides a powerful solution to increase a candidate's chances of passing through an Applicant Tracking System (ATS) and securing a job interview.",
-keyFeatures: [
-"Intelligent content generation for professional summaries and skills sections.",
-"NLP-powered analysis to provide a 'Job Fit Score' and highlight missing skills.",
-"Supports flexible file handling for .docx and .pdf uploads.",
-"Generates ATS-friendly output documents.",
-"Intuitive multi-tab user interface with light/dark mode."
-],
-techStack: [
-"Python",
-"Streamlit",
-"Gemini API",
-"spaCy",
-"python-docx",
-"PyMuPDF",
-"ReportLab"
-],
-gallery: [
-"assets/img/cv-tailor-screenshot-1.png",
-"assets/img/cv-tailor-screenshot-2.png",
-"assets/img/cv-tailor-screenshot-3.png",
-"assets/img/cv-tailor-screenshot-4.png",
-"assets/img/cv-tailor-screenshot-5.png",
-"assets/img/cv-tailor-screenshot-6.png",
-"assets/img/cv-tailor-screenshot-7.png",
-"assets/img/cv-tailor-screenshot-8.png",
-"assets/img/cv-tailor-screenshot-9.png",
-],
-liveLink: "https://www.google.com/search?q=https://cv-tailor-ai-demo.streamlit.app",
-githubLink: "https://github.com/brianmahove//cv-tailor-ai"
 
-},
+    cvTailorAI: {
+        title: "CV Tailor AI",
+        tagline: "Automated CV and cover letter tailoring for any job.",
+        heroImage: "assets/img/cv-tailor-screenshot-1.png",
+        description: "CV Tailor AI is a web application that automates the tedious process of tailoring a resume and cover letter for specific job postings. By leveraging NLP and a large language model, it provides a powerful solution to increase a candidate's chances of passing through an Applicant Tracking System (ATS) and securing a job interview.",
+        keyFeatures: [
+            "Intelligent content generation for professional summaries and skills sections.",
+            "NLP-powered analysis to provide a 'Job Fit Score' and highlight missing skills.",
+            "Supports flexible file handling for .docx and .pdf uploads.",
+            "Generates ATS-friendly output documents.",
+            "Intuitive multi-tab user interface with light/dark mode."
+        ],
+        techStack: [
+            "Python",
+            "Streamlit",
+            "Gemini API",
+            "spaCy",
+            "python-docx",
+            "PyMuPDF",
+            "ReportLab"
+        ],
+        gallery: [
+            "assets/img/cv-tailor-screenshot-1.png",
+            "assets/img/cv-tailor-screenshot-2.png",
+            "assets/img/cv-tailor-screenshot-3.png",
+            "assets/img/cv-tailor-screenshot-4.png",
+            "assets/img/cv-tailor-screenshot-5.png",
+            "assets/img/cv-tailor-screenshot-6.png",
+            "assets/img/cv-tailor-screenshot-7.png",
+            "assets/img/cv-tailor-screenshot-8.png",
+            "assets/img/cv-tailor-screenshot-9.png",
+        ],
+        liveLink: "https://www.google.com/search?q=https://cv-tailor-ai-demo.streamlit.app",
+        githubLink: "https://github.com/brianmahove//cv-tailor-ai"
 
-todoApp: {
-    title: "Todo App",
-    tagline: "A simple and interactive task management app built with React and TypeScript.",
-    heroImage: "assets/img/todo-list.png",
-    description: "The Todo App is a frontend project built using React and TypeScript with a mock local API. It allows users to manage tasks seamlessly by adding, editing, marking as complete, and deleting todos. The app includes loading states, error handling, and a fully responsive design, making it a practical showcase of clean component design and state management.",
-    keyFeatures: [
-        "Add, edit, complete, and delete todos.",
-        "Interactive and responsive user interface.",
-        "Mock local API integration for simulating backend calls.",
-        "Loading spinner and error handling with retry option."
-    ],
-    techStack: ["React", "TypeScript", "CSS"],
-    gallery: [
-        "assets/img/add-new-todo.png",
-        "assets/img/add-todo-form-empty.png",
-        "assets/img/edit.png",
-        "assets/img/todo-list-2.png",
-        "assets/img/loading-spinner.png",
-        "assets/img/error-message.png",
-    ],
-    liveLink: "http://localhost:3000",  // replace with deployed link if you host it
-    githubLink: "https://github.com/brianmahove/todo-app-typescript"
-},
-hovixy: {
-    title: "Hovixy eCommerce Platform",
-    tagline: "A futuristic, modern eCommerce platform built with cutting-edge React technologies and stunning UI/UX design.",
-    heroImage: "assets/img/hovixy-1.png",
-    description: "Hovixy is a next-generation eCommerce platform featuring a futuristic design with glass morphism effects, smooth animations, and a complete shopping experience. Built with React, TypeScript, and modern web technologies, it showcases advanced frontend development patterns including state management, responsive design, and accessibility best practices.",
-    keyFeatures: [
-        "Complete product catalog with futuristic hover effects and animations",
-        "Shopping cart functionality with add/remove items and quantity management",
-        "Product detail pages with comprehensive information and image galleries",
-        "Dark/light theme toggle with persistent user preferences",
-        "Responsive design optimized for desktop, tablet, and mobile devices",
-        "Glass morphism UI design with neon accents and smooth transitions",
-        "Redux state management for predictable data flow",
-        "TypeScript-first development with full type safety",
-        "Accessibility-compliant components following WCAG guidelines"
-    ],
-    techStack: ["React", "TypeScript", "Redux Toolkit", "Styled Components", "Framer Motion", "React Router", "Vite", "Lucide React"],
-    gallery: [
-        "assets/img/hovixy-0.png",
-        "assets/img/hovixy-2.png",
-        "assets/img/hovixy-3.png",
-        "assets/img/hovixy-4.png",
-    ],
-    liveLink: "http://localhost:3000",  // replace with deployed link when hosted
-    githubLink: "https://github.com/your-username/hovixy-ecommerce"
-},
-socialImpactDashboard: {
-    title: "Global Impact Data Visualization Dashboard",
-    tagline: "A comprehensive data visualization platform for tracking global development indicators and humanitarian data from international organizations.",
-    heroImage: "assets/img/sid-0.jpeg",
-    description: "The Global Impact Dashboard is a full-stack web application that transforms complex development data into interactive, actionable insights. Built for humanitarian organizations and data analysts, it provides real-time visualization of poverty, gender equality, education, and health indicators across countries and regions. The platform features interactive charts, world maps, and advanced filtering capabilities to make data-driven decision making accessible to everyone.",
-    keyFeatures: [
-        "Interactive data visualizations with Recharts (line, bar, pie charts)",
-        "World map integration using Leaflet.js with country-level data markers",
-        "Real-time filtering by country, region, year, and development indicators",
-        "SQLite database with sample development data from World Bank and UN sources",
-        "RESTful API backend with Express.js and comprehensive data endpoints",
-        "Mobile-responsive design with TailwindCSS for seamless cross-device experience",
-        "Personalized dashboard with custom notes and goals tracking features",
-        "Export functionality for data analysis and reporting",
-        "Modern React architecture with Context API for state management"
-    ],
-    techStack: ["React.js", "Node.js", "Express.js", "SQLite", "Recharts", "Leaflet Maps", "TailwindCSS", "REST API", "Vite", "Lucide React"],
-    gallery: [
-        "assets/img/sid-1.png",
-        "assets/img/sid-2.png",
-        "assets/img/sid-3.png",
-        "assets/img/sid-4.png",
-    ],
-    liveLink: "http://localhost:5173",  // Frontend development server
-    backendLink: "http://localhost:3001", // Backend API server
-    githubLink: "https://github.com/your-username/social-impact-dashboard"
-},
+    },
+
+    todoApp: {
+        title: "Todo App",
+        tagline: "A simple and interactive task management app built with React and TypeScript.",
+        heroImage: "assets/img/todo-list.png",
+        description: "The Todo App is a frontend project built using React and TypeScript with a mock local API. It allows users to manage tasks seamlessly by adding, editing, marking as complete, and deleting todos. The app includes loading states, error handling, and a fully responsive design, making it a practical showcase of clean component design and state management.",
+        keyFeatures: [
+            "Add, edit, complete, and delete todos.",
+            "Interactive and responsive user interface.",
+            "Mock local API integration for simulating backend calls.",
+            "Loading spinner and error handling with retry option."
+        ],
+        techStack: ["React", "TypeScript", "CSS"],
+        gallery: [
+            "assets/img/add-new-todo.png",
+            "assets/img/add-todo-form-empty.png",
+            "assets/img/edit.png",
+            "assets/img/todo-list-2.png",
+            "assets/img/loading-spinner.png",
+            "assets/img/error-message.png",
+        ],
+        liveLink: "http://localhost:3000",  // replace with deployed link if you host it
+        githubLink: "https://github.com/brianmahove/todo-app-typescript"
+    },
+    hovixy: {
+        title: "Hovixy eCommerce Platform",
+        tagline: "A futuristic, modern eCommerce platform built with cutting-edge React technologies and stunning UI/UX design.",
+        heroImage: "assets/img/hovixy-1.png",
+        description: "Hovixy is a next-generation eCommerce platform featuring a futuristic design with glass morphism effects, smooth animations, and a complete shopping experience. Built with React, TypeScript, and modern web technologies, it showcases advanced frontend development patterns including state management, responsive design, and accessibility best practices.",
+        keyFeatures: [
+            "Complete product catalog with futuristic hover effects and animations",
+            "Shopping cart functionality with add/remove items and quantity management",
+            "Product detail pages with comprehensive information and image galleries",
+            "Dark/light theme toggle with persistent user preferences",
+            "Responsive design optimized for desktop, tablet, and mobile devices",
+            "Glass morphism UI design with neon accents and smooth transitions",
+            "Redux state management for predictable data flow",
+            "TypeScript-first development with full type safety",
+            "Accessibility-compliant components following WCAG guidelines"
+        ],
+        techStack: ["React", "TypeScript", "Redux Toolkit", "Styled Components", "Framer Motion", "React Router", "Vite", "Lucide React"],
+        gallery: [
+            "assets/img/hovixy-0.png",
+            "assets/img/hovixy-2.png",
+            "assets/img/hovixy-3.png",
+            "assets/img/hovixy-4.png",
+        ],
+        liveLink: "http://localhost:3000",  // replace with deployed link when hosted
+        githubLink: "https://github.com/your-username/hovixy-ecommerce"
+    },
+    socialImpactDashboard: {
+        title: "Global Impact Data Visualization Dashboard",
+        tagline: "A comprehensive data visualization platform for tracking global development indicators and humanitarian data from international organizations.",
+        heroImage: "assets/img/sid-0.jpeg",
+        description: "The Global Impact Dashboard is a full-stack web application that transforms complex development data into interactive, actionable insights. Built for humanitarian organizations and data analysts, it provides real-time visualization of poverty, gender equality, education, and health indicators across countries and regions. The platform features interactive charts, world maps, and advanced filtering capabilities to make data-driven decision making accessible to everyone.",
+        keyFeatures: [
+            "Interactive data visualizations with Recharts (line, bar, pie charts)",
+            "World map integration using Leaflet.js with country-level data markers",
+            "Real-time filtering by country, region, year, and development indicators",
+            "SQLite database with sample development data from World Bank and UN sources",
+            "RESTful API backend with Express.js and comprehensive data endpoints",
+            "Mobile-responsive design with TailwindCSS for seamless cross-device experience",
+            "Personalized dashboard with custom notes and goals tracking features",
+            "Export functionality for data analysis and reporting",
+            "Modern React architecture with Context API for state management"
+        ],
+        techStack: ["React.js", "Node.js", "Express.js", "SQLite", "Recharts", "Leaflet Maps", "TailwindCSS", "REST API", "Vite", "Lucide React"],
+        gallery: [
+            "assets/img/sid-1.png",
+            "assets/img/sid-2.png",
+            "assets/img/sid-3.png",
+            "assets/img/sid-4.png",
+        ],
+        liveLink: "http://localhost:5173",  // Frontend development server
+        backendLink: "http://localhost:3001", // Backend API server
+        githubLink: "https://github.com/your-username/social-impact-dashboard"
+    },
 };
