@@ -472,6 +472,66 @@
                             </div>
                         </div>
                     </a>
+
+                    <a href="project-detail.html?project=djangoPollsApp" class="project-card-link"
+   data-aos="fade-up" data-aos-delay="500">
+   <div class="project-card">
+      <img src="assets/img/pp-1.jpeg"
+           alt="Django Polls App showing poll creation interface and voting results with percentage bars">
+      <div class="project-info">
+         <h3>Django Polls App</h3>
+         <p>Full-stack polling application with REST API. Create polls, vote in real-time, and view results with beautiful visualizations. Features modern UI with real-time vote counting and percentage calculations.</p>
+         <div class="tech-stack">
+            <span>Django</span>
+            <span>Django REST Framework</span>
+            <span>Python</span>
+            <span>SQLite</span>
+            <span>JavaScript</span>
+            <span>CSS3</span>
+            <span>HTML5</span>
+            <span>REST API</span>
+            <span>CRUD Operations</span>
+            <span>CSRF Protection</span>
+         </div>
+         <div class="project-links">
+            <span class="link-icon"><i class="fas fa-vote-yea"></i> Live Demo</span>
+            <span class="link-icon"><i class="fab fa-github"></i> Source Code</span>
+         </div>
+      </div>
+   </div>
+</a>
+
+<a href="project-detail.html?project=djangoBlogApp" class="project-card-link"
+   data-aos="fade-up" data-aos-delay="500">
+   <div class="project-card">
+      <img src="assets/img/dj-1.jpeg"
+           alt="Django Blog App showing blog post interface with categories, comments, and modern responsive design">
+      <div class="project-info">
+         <h3>Django Blog Application</h3>
+         <p>Full-featured blogging platform with user authentication, content management, and REST API. Create and manage blog posts with categories, comments, and image uploads. Features modern responsive design with search and pagination.</p>
+         <div class="tech-stack">
+            <span>Django</span>
+            <span>Django REST Framework</span>
+            <span>Python</span>
+            <span>SQLite</span>
+            <span>Bootstrap 5</span>
+            <span>HTML5</span>
+            <span>CSS3</span>
+            <span>JavaScript</span>
+            <span>REST API</span>
+            <span>User Authentication</span>
+            <span>CRUD Operations</span>
+            <span>ORM</span>
+         </div>
+         <div class="project-links">
+            <span class="link-icon"><i class="fas fa-blog"></i> Live Demo</span>
+            <span class="link-icon"><i class="fab fa-github"></i> Source Code</span>
+         </div>
+      </div>
+   </div>
+</a>
+
+
                 </div>
             </div>
         </section>
@@ -542,7 +602,7 @@
               </span>
             </div>
             <a href="https://www.youtube.com/channel/UChN8Eslt2osgi7n7N6En1AQ" 
-               target="_blank" class="btn btn-youtube magnetic">
+               target="_blank" rel="noopener" class="btn btn-youtube magnetic">
               <i class="fab fa-youtube"></i> Visit Channel
             </a>
           </div>
@@ -762,7 +822,7 @@
     <script src="script.js"></script>
     <script>
         async function loadGitHubRepos() {
-            const username = "brianmahove"; // your GitHub username
+            const username = "brianmahove";
             const repoList = document.getElementById("repo-list");
             try {
                 const response = await fetch(`https://api.github.com/users/${username}/repos?sort=updated`);

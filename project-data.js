@@ -381,4 +381,61 @@ const projectsData = {
         backendLink: "http://localhost:3001", // Backend API server
         githubLink: "https://github.com/your-username/social-impact-dashboard"
     },
+    djangoPollsApp: {
+    title: "Django Polls Application with REST API",
+    tagline: "A full-featured polling platform with real-time voting, results visualization, and modern responsive design.",
+    heroImage: "assets/img/pp-1.jpeg",
+    description: "The Django Polls App is a complete web application that enables users to create polls, vote in real-time, and view results with beautiful visualizations. Built with Django REST Framework, it provides a robust backend API with a modern, responsive frontend. The application features percentage-based result displays, interactive voting interfaces, and comprehensive poll management capabilities. Perfect for community engagement, surveys, and decision-making processes.",
+    keyFeatures: [
+        "Complete RESTful API with Django REST Framework for all CRUD operations",
+        "Real-time vote counting with automatic percentage calculations and visual progress bars",
+        "Modern, responsive UI with gradient designs and smooth animations",
+        "CSRF-protected forms with secure voting mechanisms",
+        "Poll management system with creation, editing, and deletion capabilities",
+        "User-friendly voting interface with radio button selection and confirmation",
+        "Results visualization with percentage bars and vote counts for each choice",
+        "Anonymous voting system with optional user authentication support",
+        "Admin interface for comprehensive poll management and analytics",
+        "Mobile-first responsive design that works seamlessly across all devices"
+    ],
+    techStack: ["Django", "Django REST Framework", "Python", "SQLite", "JavaScript", "CSS3", "HTML5", "REST API", "CRUD Operations", "CSRF Protection", "Responsive Design"],
+    gallery: [
+        "assets/img/pp-2.jpeg",
+        "assets/img/pp-3.jpeg",
+        "assets/img/pp-4.jpeg",
+    ],
+    liveLink: "http://localhost:8000",  // Django development server
+    backendLink: "http://localhost:8000/api", // Django REST API
+    githubLink: "https://github.com/your-username/django-polls-app"
+},
+djangoBlogApp: {
+    title: "Django Blog Application with REST API",
+    tagline: "A full-featured blogging platform with user authentication, content management, and modern responsive design.",
+    heroImage: "assets/img/dj-1.jpeg",
+    description: "The Django Blog App is a complete web application that enables users to create, manage, and publish blog posts with features like categories, comments, and image uploads. Built with Django and Django REST Framework, it provides both server-rendered views and a robust backend API. The application features user authentication, content moderation, search functionality, and a responsive Bootstrap design. Perfect for personal blogging, content management, and community engagement.",
+    keyFeatures: [
+        "Complete user authentication system with registration, login, and logout functionality",
+        "Full CRUD operations for blog posts with draft/published status management",
+        "RESTful API with Django REST Framework for all blog operations",
+        "Category-based post organization with many-to-many relationships",
+        "Comment system with admin moderation and approval workflow",
+        "Image upload functionality for post featured images",
+        "Advanced search with cross-field querying (title, content, excerpt)",
+        "Responsive Bootstrap 5 design with mobile-first approach",
+        "Admin dashboard for comprehensive content and user management",
+        "Pagination system for efficient post browsing",
+        "Slug-based SEO-friendly URLs automatically generated from titles",
+        "User-specific post management with 'My Posts' dashboard"
+    ],
+    techStack: ["Django", "Django REST Framework", "Python", "SQLite", "Bootstrap 5", "HTML5", "CSS3", "JavaScript", "REST API", "CRUD Operations", "User Authentication", "ORM", "Pagination", "File Upload", "Search Functionality"],
+    gallery: [
+        "assets/img/dj-2.jpeg",
+        "assets/img/dj-3.jpeg",
+        "assets/img/dj-4.jpeg",
+       
+    ],
+    liveLink: "http://localhost:8000",  // Django development server
+    backendLink: "http://localhost:8000/api", // Django REST API endpoints
+    githubLink: "https://github.com/your-username/django-blog-app"
+},
 };
