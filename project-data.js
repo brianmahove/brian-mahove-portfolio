@@ -436,7 +436,7 @@ djangoBlogApp: {
     ],
     liveLink: "http://localhost:8000",  // Django development server
     backendLink: "http://localhost:8000/api", // Django REST API endpoints
-    githubLink: "https://github.com/your-username/django-blog-app"
+    githubLink: "https://github.com/brianmahove/farm-mis-django"
 },
 farmManagementSystem: {
     title: "Farm Management Information System (FMIS)",
@@ -481,6 +481,6 @@ farmManagementSystem: {
     ],
     liveLink: "http://localhost:8000",
     backendLink: "http://localhost:8000/admin",
-    githubLink: "https://github.com/your-username/farm-management-system"
+    githubLink: "https://github.com/brianmahove/farm-mis-django"
 },
 };
