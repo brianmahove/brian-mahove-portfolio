@@ -161,8 +161,14 @@ document.addEventListener('DOMContentLoaded', () => {
                     <div class="sidebar-card">
                         <h3>Project Links</h3>
                         <div class="project-detail-links">
-                            <a href="${project.liveLink}" target="_blank" class="btn btn-primary magnetic">Live Demo <i class="fas fa-external-link-alt"></i></a>
-                            <a href="${project.githubLink}" target="_blank" class="btn btn-secondary magnetic">GitHub <i class="fab fa-github"></i></a>
+                            ${project.liveLink && project.liveLink !== '#'
+                                ? `<a href="${project.liveLink}" target="_blank" rel="noopener" class="btn btn-primary magnetic">Live Demo <i class="fas fa-external-link-alt"></i></a>`
+                                : `<span class="btn btn-primary" style="opacity:0.5;cursor:not-allowed">Coming Soon <i class="fas fa-clock"></i></span>`
+                            }
+                            ${project.githubLink && project.githubLink !== '#'
+                                ? `<a href="${project.githubLink}" target="_blank" rel="noopener" class="btn btn-secondary magnetic">GitHub <i class="fab fa-github"></i></a>`
+                                : ''
+                            }
                         </div>
                     </div>
                 </div>

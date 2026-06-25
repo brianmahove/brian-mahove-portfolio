@@ -305,29 +305,6 @@ const projectsData = {
 
     },
 
-    todoApp: {
-        title: "Todo App",
-        tagline: "A simple and interactive task management app built with React and TypeScript.",
-        heroImage: "assets/img/todo-list.png",
-        description: "The Todo App is a frontend project built using React and TypeScript with a mock local API. It allows users to manage tasks seamlessly by adding, editing, marking as complete, and deleting todos. The app includes loading states, error handling, and a fully responsive design, making it a practical showcase of clean component design and state management.",
-        keyFeatures: [
-            "Add, edit, complete, and delete todos.",
-            "Interactive and responsive user interface.",
-            "Mock local API integration for simulating backend calls.",
-            "Loading spinner and error handling with retry option."
-        ],
-        techStack: ["React", "TypeScript", "CSS"],
-        gallery: [
-            "assets/img/add-new-todo.png",
-            "assets/img/add-todo-form-empty.png",
-            "assets/img/edit.png",
-            "assets/img/todo-list-2.png",
-            "assets/img/loading-spinner.png",
-            "assets/img/error-message.png",
-        ],
-        liveLink: "http://localhost:3000",  // replace with deployed link if you host it
-        githubLink: "https://github.com/brianmahove/todo-app-typescript"
-    },
     hovixy: {
         title: "Hovixy eCommerce Platform",
         tagline: "A futuristic, modern eCommerce platform built with cutting-edge React technologies and stunning UI/UX design.",
@@ -351,13 +328,13 @@ const projectsData = {
             "assets/img/hovixy-3.png",
             "assets/img/hovixy-4.png",
         ],
-        liveLink: "http://localhost:3000",  // replace with deployed link when hosted
-        githubLink: "https://github.com/your-username/hovixy-ecommerce"
+        liveLink: "#",
+        githubLink: "https://github.com/brianmahove"
     },
     socialImpactDashboard: {
         title: "Global Impact Data Visualization Dashboard",
         tagline: "A comprehensive data visualization platform for tracking global development indicators and humanitarian data from international organizations.",
-        heroImage: "assets/img/sid-0.jpeg",
+        heroImage: "assets/img/sid-1.png",
         description: "The Global Impact Dashboard is a full-stack web application that transforms complex development data into interactive, actionable insights. Built for humanitarian organizations and data analysts, it provides real-time visualization of poverty, gender equality, education, and health indicators across countries and regions. The platform features interactive charts, world maps, and advanced filtering capabilities to make data-driven decision making accessible to everyone.",
         keyFeatures: [
             "Interactive data visualizations with Recharts (line, bar, pie charts)",
@@ -377,9 +354,8 @@ const projectsData = {
             "assets/img/sid-3.png",
             "assets/img/sid-4.png",
         ],
-        liveLink: "http://localhost:5173",  // Frontend development server
-        backendLink: "http://localhost:3001", // Backend API server
-        githubLink: "https://github.com/your-username/social-impact-dashboard"
+        liveLink: "#",
+        githubLink: "https://github.com/brianmahove"
     },
     djangoPollsApp: {
     title: "Django Polls Application with REST API",
@@ -404,9 +380,8 @@ const projectsData = {
         "assets/img/pp-3.jpeg",
         "assets/img/pp-4.jpeg",
     ],
-    liveLink: "http://localhost:8000",  // Django development server
-    backendLink: "http://localhost:8000/api", // Django REST API
-    githubLink: "https://github.com/your-username/django-polls-app"
+    liveLink: "#",
+    githubLink: "https://github.com/brianmahove"
 },
 djangoBlogApp: {
     title: "Django Blog Application with REST API",
@@ -434,8 +409,7 @@ djangoBlogApp: {
         "assets/img/dj-4.jpeg",
        
     ],
-    liveLink: "http://localhost:8000",  // Django development server
-    backendLink: "http://localhost:8000/api", // Django REST API endpoints
+    liveLink: "#",
     githubLink: "https://github.com/brianmahove/farm-mis-django"
 },
 farmManagementSystem: {
@@ -479,8 +453,7 @@ farmManagementSystem: {
         "assets/img/mis-16.jpeg",
         "assets/img/mis-17.jpeg",
     ],
-    liveLink: "http://localhost:8000",
-    backendLink: "http://localhost:8000/admin",
+    liveLink: "#",
     githubLink: "https://github.com/brianmahove/farm-mis-django"
 },
 };
